@@ -1,1 +1,99 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Mohamed Salem | Cybersecurity & Penetration Testing</title><meta name='description' content='Mohamed Salem — Cybersecurity, penetration testing, vulnerability research and secure backend engineering.'><link rel='stylesheet' href='style.css'></head><body><header><a class='brand' href='#home'>MS <span>MOHAMED SALEM</span></a><nav><a href='#about'>About</a><a href='#skills'>Skills</a><a href='#projects'>Projects</a><a href='#contact'>Contact</a></nav><a class='nav-cta' href='Mohamed-Salem-CV.html' target='_blank'>CV ↗</a></header><main><section id='home' class='hero'><div><p class='eyebrow'>SECURITY ENGINEERING • PENETRATION TESTING</p><h1>Security starts<br><em>before the exploit.</em></h1><p class='lead'>Cybersecurity-focused Computer Science student specializing in web application security, penetration testing, vulnerability research and secure backend development.</p><a class='btn' href='#terminal'>Enter Security Console →</a><a class='btn ghost' href='Mohamed-Salem-CV.html' target='_blank'>View CV ↗</a></div><div class='card'><div class='avatar'>MS</div><b>MOHAMED SALEM</b><small>CYBERSECURITY / PENTESTING</small><div class='mini'>WEB • API • AUTH • ACCESS CONTROL</div></div></section><section id='terminal'><p class='eyebrow'>INTERACTIVE TERMINAL</p><h2>Explore my work like a security researcher.</h2><div class='terminal'><div class='bar'>● ● ● <span>security-console</span></div><div id='output'><p>Welcome. Type <b>help</b> to see available commands.</p></div><form id='term'><span>$</span><input id='cmd' autocomplete='off' aria-label='Terminal command' placeholder='help'><button>Run</button></form></div></section><section id='about'><p class='eyebrow'>01 — ABOUT</p><h2>I think like an attacker and build like an engineer.</h2><div class='grid'><div><p>My focus is understanding how applications, APIs and business workflows fail under real-world pressure, then translating findings into practical remediation.</p><p>My work spans penetration testing, vulnerability research, security testing and secure backend development.</p></div><div class='principles'><div><b>01 / Understand</b><span>Map architecture and trust boundaries.</span></div><div><b>02 / Validate</b><span>Prove exploitability and impact.</span></div><div><b>03 / Remediate</b><span>Fix root causes, not symptoms.</span></div></div></div></section><section id='skills'><p class='eyebrow'>02 — ATTACK SURFACE</p><h2>What I look for.</h2><div class='surface'><button data-info='Web applications: XSS, injection, client-side logic, exposed functionality.'>WEB</button><button data-info='APIs: authentication, authorization, BOLA/IDOR, business logic and rate limits.'>API</button><button data-info='Identity: sessions, JWT, MFA, RBAC and privilege boundaries.'>AUTH</button><button data-info='Resources: IDOR/BOLA, file uploads, unauthorized files and path handling.'>ACCESS CONTROL</button><button data-info='Infrastructure: ports, services, exposed panels and network attack surface.'>NETWORK</button></div><div id='surfaceInfo' class='info'>Select an attack-surface area.</div><div class='tags'><b>Burp Suite</b><b>Nmap</b><b>Nuclei</b><b>ffuf</b><b>Metasploit</b><b>Python</b><b>Node.js</b><b>Express</b><b>PostgreSQL</b><b>MongoDB</b></div></section><section id='lab'><p class='eyebrow'>03 — VULNERABILITY LAB</p><h2>See how I think about vulnerabilities.</h2><div class='lab-grid'><div class='lab-menu'><button class='active' data-lab='xss'>XSS</button><button data-lab='idor'>IDOR / BOLA</button><button data-lab='auth'>AUTH</button><button data-lab='upload'>FILE UPLOAD</button></div><div class='lab-content'><h3 id='labTitle'>Reflected XSS</h3><p id='labText'>User-controlled input reaches an unsafe HTML/JavaScript sink.</p><div class='codebox' id='labCode'>&lt;img src=x onerror=alert(1)&gt;</div><div class='impact'><b>Impact</b><span id='labImpact'>Script execution in the victim's browser.</span></div><div class='impact'><b>Remediation</b><span id='labFix'>Context-aware output encoding and safe DOM APIs.</span></div></div></div></section><section id='projects'><p class='eyebrow'>04 — SELECTED PROJECTS</p><h2>Build to <em>break better.</em></h2><div class='projects'><article><small>SECURITY TOOL</small><h3>VulnHawk XSS Scanner SE</h3><p>Python/Flask scanner with payload generation, concurrent testing, classification, history and JSON export.</p><div class='tags'><b>Python</b><b>Flask</b><b>XSS</b></div></article><article><small>SECURE BACKEND</small><h3>Secure Authentication System</h3><p>Node.js, PostgreSQL, Prisma, bcrypt, TOTP 2FA, JWT and RBAC for protected user, manager and admin flows.</p><div class='tags'><b>Node</b><b>JWT</b><b>TOTP</b></div></article><article><small>FULL STACK</small><h3>Secure E-Commerce Platform</h3><p>MEAN marketplace with secure authentication, RBAC, validation, security headers, rate limiting and file handling.</p><div class='tags'><b>Angular</b><b>Express</b><b>MongoDB</b></div></article><article><small>GRADUATION PROJECT</small><h3>AI Recon & Red-Team Support Tool</h3><p>Recon, web discovery, network/service analysis, access-control testing and CVSS-based risk assessment.</p><div class='tags'><b>Recon</b><b>CVSS</b><b>AI</b></div></article></div></section><section id='contact' class='contact'><p class='eyebrow'>05 — LET'S CONNECT</p><h2>Have a security problem?<br><em>Let's talk.</em></h2><p>Open to penetration testing, application security, vulnerability research and secure backend opportunities.</p><a class="btn" href="#assessment">Request an Assessment ↗</a><a class='btn ghost' href='https://github.com/mo7amedsalem1' target='_blank'>GitHub ↗</a><a class='btn ghost' href='https://www.linkedin.com/in/mohvmed-svlem' target='_blank'>LinkedIn ↗</a><section id="assessment" class="assessment"><p class="eyebrow">06 — SECURITY ASSESSMENT</p><h2>Request a <em>Security Assessment.</em></h2><p>Send the scope and basic details. Your email client will open with a structured request ready to send.</p><form id="assessmentForm"><div class="form-grid"><label>Name<input name="name" required placeholder="Your name"></label><label>Company<input name="company" placeholder="Company / Organization"></label><label>Email<input name="email" type="email" required placeholder="you@example.com"></label><label>Assessment Type<select name="type"><option>Web Application</option><option>API Security</option><option>Network Security</option><option>Vulnerability Assessment</option><option>Other</option></select></label></div><label>Target / Scope<textarea name="scope" required placeholder="Website, API, application, IP range, or a short description of the scope"></textarea></label><label>Additional Details<textarea name="details" placeholder="Anything else I should know?"></textarea></label><button class="btn" type="submit">Prepare Email Request →</button></form></section></main><footer>© 2026 Mohamed Salem · Security Engineering / Penetration Testing</footer><script src='script.js'></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d14">
+  <title>Mohamed Salem | Web & API Security Assessment</title>
+  <meta name="description" content="Focused web application and API security assessments covering access control, authentication, and business logic vulnerabilities. Practical findings. Clear remediation.">
+  <meta property="og:title" content="Mohamed Salem | Web & API Security">
+  <meta property="og:description" content="Find security weaknesses before they become business risks. Focused web and API security assessments.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Mohamed Salem home"><span class="mark">MS</span><span>MOHAMED SALEM<small>WEB & API SECURITY</small></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#approach">Approach</a><a href="#work">Selected Work</a>
+    </nav>
+    <a class="header-cta" href="#contact">Discuss a project <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> APPLICATION SECURITY · PENETRATION TESTING</p>
+        <h1>Find the weakness<br>before <em>someone else does.</em></h1>
+        <p class="hero-lead">I help teams uncover exploitable weaknesses in web applications and APIs — especially where authentication, permissions, and business logic meet.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Request a security assessment <span>↗</span></a>
+          <a class="text-link" href="#services">Explore services <span>↓</span></a>
+        </div>
+        <div class="hero-proof"><span class="proof-line"></span><p>Focused testing. Reproducible evidence. Remediation your developers can act on.</p></div>
+      </div>
+      <aside class="hero-visual" aria-label="Security assessment focus areas">
+        <div class="visual-top"><span>ASSESSMENT FOCUS</span><span class="status"><i></i> MANUAL VALIDATION</span></div>
+        <div class="visual-main">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="core"><span>APP</span><b>SECURITY</b><small>TRUST · ACCESS · LOGIC</small></div>
+          <span class="node node-a">01 <b>AUTH</b></span><span class="node node-b">02 <b>API</b></span><span class="node node-c">03 <b>ACCESS</b></span><span class="node node-d">04 <b>LOGIC</b></span>
+        </div>
+        <div class="visual-bottom"><span>01 / IDENTIFY</span><span>02 / VALIDATE</span><span>03 / REPORT</span></div>
+      </aside>
+    </section>
+
+    <section class="value-strip" aria-label="Assessment principles">
+      <div><span>01</span><p><b>Business-aware testing</b><small>Beyond automated scan output</small></p></div>
+      <div><span>02</span><p><b>Evidence-led findings</b><small>Reproducible impact and scope</small></p></div>
+      <div><span>03</span><p><b>Actionable remediation</b><small>Clear next steps for developers</small></p></div>
+    </section>
+
+    <section class="section-wrap section-block" id="services">
+      <div class="section-heading"><div><p class="eyebrow">WHAT I HELP WITH</p><h2>Security testing built around<br><em>real application risk.</em></h2></div><p class="section-intro">A focused assessment starts with your application’s most important trust boundaries — not a long checklist of low-value noise.</p></div>
+      <div class="service-grid">
+        <article class="service-card service-featured"><span class="service-index">01 / CORE SERVICE</span><div class="service-icon">↗</div><h3>Web Application Security</h3><p>Identify weaknesses in application behavior, user flows, and server-side controls before they become exploitable issues.</p><ul><li>Injection and XSS review</li><li>Session and authentication controls</li><li>File handling and input validation</li></ul><a href="#contact">Discuss web testing <span>↗</span></a></article>
+        <article class="service-card"><span class="service-index">02 / CORE SERVICE</span><div class="service-icon">⌘</div><h3>API Security Assessment</h3><p>Test how APIs enforce identity, authorization, and expected behavior across endpoints and user roles.</p><ul><li>Broken Object Level Authorization (BOLA / IDOR)</li><li>Authentication and JWT handling</li><li>Endpoint permissions and abuse cases</li></ul><a href="#contact">Discuss API testing <span>↗</span></a></article>
+        <article class="service-card"><span class="service-index">03 / TARGETED REVIEW</span><div class="service-icon">◎</div><h3>Business Logic & Access Control</h3><p>Challenge assumptions hidden in workflows — where valid features can be combined in unintended ways.</p><ul><li>Role and privilege boundaries</li><li>Orders, pricing, and workflow tampering</li><li>Authorization gaps between users</li></ul><a href="#contact">Discuss a focused review <span>↗</span></a></article>
+      </div>
+      <p class="scope-note"><span>NOTE</span> Scope, test depth, environment, and authorization are agreed before testing begins. No testing is performed without explicit permission.</p>
+    </section>
+
+    <section class="approach-section" id="approach">
+      <div class="section-wrap section-block">
+        <div class="section-heading"><div><p class="eyebrow">HOW I WORK</p><h2>A clear process.<br><em>No mystery report.</em></h2></div><p class="section-intro">The goal is not to produce the biggest list of findings. It is to establish what is exploitable, why it matters, and how to fix it.</p></div>
+        <div class="steps">
+          <article><span>01</span><div><h3>Scope & understand</h3><p>Agree on targets, test accounts, permitted techniques, exclusions, and success criteria.</p></div><small>ALIGN</small></article>
+          <article><span>02</span><div><h3>Test & validate</h3><p>Map the attack surface, test key controls manually, and safely verify realistic attack paths.</p></div><small>VERIFY</small></article>
+          <article><span>03</span><div><h3>Report & prioritize</h3><p>Document reproduction steps, evidence, impact, severity rationale, and practical remediation.</p></div><small>EXPLAIN</small></article>
+          <article><span>04</span><div><h3>Review & retest</h3><p>Where agreed, retest fixes and confirm whether the reported issue has been resolved.</p></div><small>IMPROVE</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="work">
+      <div class="section-heading"><div><p class="eyebrow">SELECTED TECHNICAL WORK</p><h2>Security knowledge,<br><em>put into practice.</em></h2></div><p class="section-intro">A sample of security tooling and secure-development work that informs my testing approach.</p></div>
+      <div class="work-grid">
+        <article class="work-card"><div class="work-meta"><span>01</span><span>SECURITY TOOLING</span></div><h3>VulnHawk XSS Scanner SE</h3><p>A Python/Flask-based XSS testing tool with concurrent checks, result classification, scan history, and JSON export.</p><div class="chips"><span>Python</span><span>Flask</span><span>XSS</span></div></article>
+        <article class="work-card"><div class="work-meta"><span>02</span><span>AUTHENTICATION</span></div><h3>Secure Authentication System</h3><p>A backend authentication flow built around password hashing, TOTP-based 2FA, JWT, and role-based access control.</p><div class="chips"><span>Node.js</span><span>PostgreSQL</span><span>RBAC</span></div></article>
+        <article class="work-card"><div class="work-meta"><span>03</span><span>SECURE FULL STACK</span></div><h3>Secure E-Commerce Platform</h3><p>A marketplace project incorporating authentication, authorization, validation, security headers, rate limiting, and file handling.</p><div class="chips"><span>Angular</span><span>Express</span><span>MongoDB</span></div></article>
+        <article class="work-card work-cta"><p class="eyebrow">MORE ON GITHUB</p><h3>Interested in the implementation?</h3><p>Explore my repositories for more security experiments and engineering projects.</p><a class="button button-secondary" href="https://github.com/mo7amedsalem1" target="_blank" rel="noreferrer">View GitHub profile <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner">
+        <div><p class="eyebrow">START A CONVERSATION</p><h2>Know what you’re<br><em>exposing.</em></h2><p class="contact-copy">Have a web application or API you want assessed? Share a little about the target and your goals. We can agree on a suitable scope before any testing starts.</p>
+          <div class="contact-links"><a href="mailto:eng-mohamedsalem@outlook.com?subject=Security%20Assessment%20Inquiry" class="button button-primary">Request an assessment <span>↗</span></a><a href="https://www.linkedin.com/in/mohvmed-svlem" target="_blank" rel="noreferrer" class="button button-secondary">Connect on LinkedIn <span>↗</span></a></div>
+        </div>
+        <aside class="contact-card"><span class="service-index">PROJECT INQUIRY</span><h3>Help me understand the target.</h3><p>A useful first message includes:</p><ul><li>Application or API type</li><li>What you want assessed</li><li>Available test environment and access</li><li>Your expected timeline</li></ul><a href="mailto:eng-mohamedsalem@outlook.com?subject=Security%20Assessment%20Inquiry&body=Hello%20Mohamed%2C%0A%0AI%27d%20like%20to%20discuss%20a%20security%20assessment.%0A%0AApplication%20or%20API%3A%0AScope%3A%0ATest%20environment%2Faccess%3A%0ATimeline%3A%0A%0AWe%20can%20confirm%20written%20authorization%20and%20scope%20before%20testing.%0A">Prepare inquiry email <span>↗</span></a></aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="#home"><span class="mark">MS</span><span>MOHAMED SALEM<small>WEB & API SECURITY</small></span></a><p>Focused testing. Clear findings. Better security.</p><div><a href="https://github.com/mo7amedsalem1" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/mohvmed-svlem" target="_blank" rel="noreferrer">LinkedIn</a><a href="mailto:eng-mohamedsalem@outlook.com">Email</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
